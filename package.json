@@ -1,0 +1,17 @@
+{
+  "name": "issue_1223_napi_rs_str",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "DEBUG=napi:* napi build --platform --release",
+    "test": "suno test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@napi-rs/cli": "^2.2.0",
+    "suno": "^0.0.1"
+  }
+}
